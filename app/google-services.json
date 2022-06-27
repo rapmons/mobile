@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "873293620165",
+    "firebase_url": "https://mobile-a114d-default-rtdb.firebaseio.com",
+    "project_id": "mobile-a114d",
+    "storage_bucket": "mobile-a114d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:873293620165:android:ad100f2051fa82fe61a1ac",
+        "android_client_info": {
+          "package_name": "com.midterm.english_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "873293620165-ogusqqp1qtlefntusfseif44b4kn55qo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcgSySSwei4amMMhluxMZoFbhmtUQG6_0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "873293620165-ogusqqp1qtlefntusfseif44b4kn55qo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
