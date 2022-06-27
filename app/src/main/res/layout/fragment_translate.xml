@@ -8,7 +8,7 @@
 
         <variable
                 name="TranslateViewModel"
-                type="com.midterm.english_app.viewmodel.TranslateViewModel">
+                type="com.indieteam.englishvocabulary.viewmodel.TranslateViewModel">
         </variable>
     </data>
 
@@ -26,7 +26,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="?attr/actionBarSize"
                 android:theme="@style/Theme.AppCompat.Light"
-                app:titleTextColor="@color/colorWhite"
+                app:titleTextColor="@color/colorPrimaryDark"
                 app:contentInsetStart="0dp"
                 app:contentInsetEnd="0dp"
                 app:contentInsetLeft="0dp"
@@ -36,7 +36,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Translate"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/colorYellowDark2"
                     android:textStyle="bold"
                     android:textSize="20sp"
                     android:layout_gravity="center"/>
@@ -79,8 +79,8 @@
                             bind:positionCursorAlwaysEnd="@{TranslateViewModel.inputText}"
                             android:textSize="30sp"
                             android:textCursorDrawable="@drawable/white_cursor"
-                            android:background="@drawable/app_background"
-                            android:textColor="@color/colorWhite" />
+
+                            android:textColor="@color/colorYellowDark2" />
 
                     <ImageView
                             android:layout_width="0dp"
@@ -128,7 +128,7 @@
                                 android:layout_height="wrap_content"
                                 android:text="@={TranslateViewModel.resultText}"
                                 android:textSize="30sp"
-                                android:background="@drawable/app_background"
+
                                 android:textColor="@color/colorWhite"/>
                     </ScrollView>
 
@@ -151,12 +151,12 @@
                     android:layout_width="match_parent"
                     android:layout_height="0dp"
                     android:layout_weight="0.5"
-                    android:background="@color/colorYellow"
+                    android:background="@color/colorPrimaryDark"
                     android:text="@={TranslateViewModel.buttonText}"
                     android:textSize="18sp"
                     style="?android:attr/borderlessButtonStyle"
                     android:layout_marginTop="15dp"
-                    android:textColor="@color/colorWhite"
+                    android:textColor="@color/colorYellowDark2"
                     android:onClick="@{()->TranslateViewModel.translateOnCLick()}"
                     bind:useEffect="@{TranslateViewModel.useAnimate}"/>
 

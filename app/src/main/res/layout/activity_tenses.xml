@@ -5,7 +5,7 @@
 
         <variable
                 name="TensesViewModel"
-                type="com.midterm.english_app.viewmodel.TensesViewModel"/>
+                type="com.indieteam.englishvocabulary.viewmodel.TensesViewModel"/>
     </data>
 
     <LinearLayout

@@ -6,7 +6,7 @@
 
         <variable
                 name="TensesRouterViewModel"
-                type="com.midterm.english_app.viewmodel.TensesRouterViewModel"/>
+                type="com.indieteam.englishvocabulary.viewmodel.TensesRouterViewModel"/>
     </data>
 
     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"

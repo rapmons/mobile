@@ -10,7 +10,7 @@
 
         <variable
                 name="FavouriteViewModel"
-                type="com.midterm.english_app.viewmodel.FavouriteViewModel">
+                type="com.indieteam.englishvocabulary.viewmodel.FavouriteViewModel">
         </variable>
     </data>
 
